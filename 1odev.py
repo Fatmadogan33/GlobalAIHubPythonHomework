@@ -1,0 +1,13 @@
+isim = input("İsminizi Giriniz:")
+soyisim = input ("Soyisim Giriniz:")
+yas = input ("Yaşınızı Giriniz:")
+yas = int(yas)
+cinsiyet = input ("Cinsiyet Giriniz:")
+boy = input ("Boynuzu Giriniz:")
+boy = int(boy)
+
+print("İsminiz:{} , Veri Tipi: {}".format(isim,type(isim)))
+print("Soyisminiz:{} , Veri Tipi: {}".format(soyisim,type(soyisim)))
+print("Yaşınız:{} , Veri Tipi: {}".format(yas,type(yas)))
+print("Cinsiyetiniz:{} , Veri Tipi: {}".format(cinsiyet,type(cinsiyet)))
+print("Boyunuz:{} , Veri Tipi: {}".format(boy,type(boy)))
